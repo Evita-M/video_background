@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+:root {
+  --tyrkys: rgb(23, 186, 189);
+}
+
+
+body {
+  overflow-x: hidden;
+  font-family: 'Lato', sans-serif;
+  color: #505962;
+}
+
+.navbar {
+  background: rgba(0,0,0,0.6);
+}
+.navbar-brand img {
+  height: 2rem;
+}
+
+.video-background {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgba(0,0,0,0.2);
+}
+
+
+.caption {
+  position: absolute;
+  top: 38%;
+  width: 100%;
+  color: white;
+}
+
+.caption h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: .2rem;
+  text-shadow: .1rem .1rem .8rem black;
+  padding-bottom: 1.5rem;
+}
+
+.caption h3 {
+  font-size: 2rem;
+  text-shadow: .1rem .1rem .5rem black;
+}
+
+.btn-lg {
+ border-radius: 2px;
+ font-size: 1.1rem;
+ padding: .6rem 1.3rem;
+}
+
+#info {
+  position: absolute;
+  top: 110%;
+}
+
+
+@media (max-width: 760px) {
+  
+.caption h1 {
+  font-size: 1.4rem;
+  letter-spacing: .15rem;
+  padding-bottom: .5rem;
+}
+
+.caption h3 {
+  font-size: 1.1rem;
+  padding-bottom: 1.2rem;
+}
+
+.btn-lg {
+ font-size: 1rem;
+ padding: .5rem 1rem;
+}
+}
+
+.info-btn:hover {
+  background-color: var(--tyrkys);
+  border: none;
+}
+
+.tyrkys-text{
+  color: var(--tyrkys);
+}
+
+.footer {
+  overflow: hidden;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: var(--tyrkys);
+  color: white;
+}
+
+.footer h4 {
+  font-size: 1rem;
+}
+.fa {
+background: white;
+color: var(--tyrkys);
+padding: 5px 8px 5px 8px;
+text-align: center;
+text-decoration: none;
+border-radius: 50%; }
+
+a:hover {
+text-decoration: none;
+}
